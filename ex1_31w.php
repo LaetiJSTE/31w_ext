@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Extension de l'exercice #1
- * Author: kenneth Gbeti
+ * Author: Laetitia Juste
  * Description: Une nouvelle extension pour l'exercice 1
- *Author URI: https://github.com/kennethEdwin147/31w-extension1
+ *Author URI: https://github.com/LaetiJSTE
  */
 ?>
 <?php 
@@ -13,7 +13,7 @@ function fonction_generalle() {
         wp_enqueue_style(	'mon_31w-style', 
                             get_stylesheet_uri(), 
                             array(),
-                             _S_VERSION );
+                            filemtime(get_template_directory() . '/style.css'));
     }
     add_action( 'wp_enqueue_scripts', 'mon_31w_enqueue' );
 }

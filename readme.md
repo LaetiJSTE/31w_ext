@@ -1,6 +1,6 @@
 # Exercice - 1
 ## Première extension Wordpress
-### Contient 2 fichiers
+### Contient xxx fichiers
 
 > L'extension contient 3 fichiers:
 index.php
@@ -8,5 +8,5 @@ ex1_31w.php
 readme.md
 
 
-<!-- lien vers gitgub page -->
+<!-- lien vers gitgub page xxx -->
 []()
